@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#1d1d1d"/>
+  <rect x="90" y="100" width="620" height="400" rx="24" fill="#f3e8d8"/>
+  <rect x="140" y="250" width="220" height="170" rx="16" fill="#111111"/>
+  <rect x="440" y="250" width="220" height="170" rx="16" fill="#111111"/>
+  <rect x="180" y="220" width="140" height="18" rx="9" fill="#c79b57"/>
+  <rect x="480" y="220" width="140" height="18" rx="9" fill="#c79b57"/>
+  <rect x="170" y="150" width="160" height="40" rx="10" fill="#ffffff" opacity="0.9"/>
+  <rect x="470" y="150" width="160" height="40" rx="10" fill="#ffffff" opacity="0.9"/>
+  <text x="400" y="500" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="34" font-weight="700" fill="#111111">Shop Interior</text>
+</svg>

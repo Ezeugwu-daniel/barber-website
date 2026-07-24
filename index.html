@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mett Barber Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="home1.css" />
+  </head>
+  <body>
+    <header class="hero" id="home">
+      <nav class="navbar">
+        <a href="#home" class="logo">
+          <span class="logo-icon">✂</span>
+          <span class="logo-text">CJ<br /><small>BARBER SHOP</small></span>
+        </a>
+
+        <button class="menu-toggle" aria-label="Open menu">☰</button>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+          <li><a href="#book">Book</a></li>
+        </ul>
+
+        <a href="#book" class="btn btn-primary nav-cta">Book Now</a>
+      </nav>
+
+      <div class="hero-content">
+        <p class="hero-location">Melbourne, Australia</p>
+        <h1>Sharp cuts. Clean finish. Timeless style.</h1>
+        <p class="hero-subtext">
+          Expert grooming, classic barbershop service, and a warm atmosphere
+          built for modern men.
+        </p>
+        <div class="hero-actions">
+          <a href="#book" class="btn btn-primary">Get an Appointment</a>
+          <a href="#services" class="btn btn-secondary">View Services</a>
+        </div>
+        <div class="hero-badges">
+          <div class="badge">
+            <strong>4.9★</strong>
+            <span>500+ happy clients</span>
+          </div>
+          <div class="badge">
+            <strong>Mon-Sat</strong>
+            <span>Open daily for appointments</span>
+          </div>
+          <div class="badge">
+            <strong>Walk-ins</strong>
+            <span>Available for quick trims</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section about reveal" id="about">
+        <div class="section-content about-grid">
+          <div class="about-text">
+            <p class="section-label">About Us</p>
+            <h2>Where tradition meets modern grooming.</h2>
+            <p>
+              Mett Barber Shop brings precision cuts, beard styling, and
+              effortless confidence to every visit. We focus on detail, comfort,
+              and a personal experience that keeps clients coming back.
+            </p>
+            <ul class="check-list">
+              <li>Experienced master barbers</li>
+              <li>Premium grooming products</li>
+              <li>Relaxed, clean, and welcoming space</li>
+            </ul>
+          </div>
+          <div class="about-card">
+            <h3>Open Hours</h3>
+            <p>Mon - Fri: 9:00 AM - 7:00 PM</p>
+            <p>Sat: 8:00 AM - 6:00 PM</p>
+            <p>Sun: Closed</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section services reveal" id="services">
+        <div class="section-content">
+          <p class="section-label">Services</p>
+          <h2>Popular services we offer</h2>
+          <div class="service-grid">
+            <article class="service-card">
+              <h3>Classic Haircut</h3>
+              <p>Precision cuts tailored to your face shape and style.</p>
+            </article>
+            <article class="service-card">
+              <h3>Beard Grooming</h3>
+              <p>Shape, trim, and maintain your beard with expert care.</p>
+            </article>
+            <article class="service-card">
+              <h3>Hot Towel Shave</h3>
+              <p>Relax with a smooth, traditional shave finish.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section gallery reveal" id="gallery">
+        <div class="section-content">
+          <p class="section-label">Our Work</p>
+          <h2>Fresh cuts, sharp edges, polished finish.</h2>
+          <div class="gallery-grid">
+            <div class="gallery-card">
+              <img src="images/barber-cut.svg" alt="Barber styling hair" />
+            </div>
+            <div class="gallery-card">
+              <img src="images/beard-style.svg" alt="Beard grooming" />
+            </div>
+            <div class="gallery-card">
+              <img src="images/shop-interior.svg" alt="Barbershop interior" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section testimonials reveal" id="testimonials">
+        <div class="section-content">
+          <p class="section-label">Testimonials</p>
+          <h2>What our clients say</h2>
+          <div class="testimonial-grid">
+            <article class="testimonial-card">
+              <p>“The best haircut I’ve had in years. Clean, sharp, and so professional.”</p>
+              <strong>Alex M.</strong>
+            </article>
+            <article class="testimonial-card">
+              <p>“Every detail matters here. The beard trim was flawless.”</p>
+              <strong>Daniel R.</strong>
+            </article>
+            <article class="testimonial-card">
+              <p>“A great atmosphere and a real attention to style.”</p>
+              <strong>Jason P.</strong>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section booking reveal" id="book">
+        <div class="section-content booking-box">
+          <div>
+            <p class="section-label">Book Your Visit</p>
+            <h2>Reserve your next appointment today.</h2>
+            <p>
+              Walk in for a quick trim or book ahead for a full grooming session.
+            </p>
+          </div>
+          <a href="tel:+61398765432" class="btn btn-primary">Call Now</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 Mett Barber Shop. Crafted for style and confidence.</p>
+    </footer>
+
+    <script>
+      const navbar = document.querySelector('.navbar');
+      const menuToggle = document.querySelector('.menu-toggle');
+      const navLinks = document.querySelector('.nav-links');
+
+      window.addEventListener('scroll', () => {
+        navbar.classList.toggle('sticky', window.scrollY > 20);
+      });
+
+      menuToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('show');
+      });
+
+      const revealItems = document.querySelectorAll('.reveal');
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+          }
+        });
+      }, { threshold: 0.15 });
+
+      revealItems.forEach((item) => observer.observe(item));
+    </script>
+  </body>
+</html>
