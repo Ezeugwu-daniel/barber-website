@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#111111"/>
+  <rect x="80" y="70" width="640" height="460" rx="28" fill="#f3e8d8"/>
+  <circle cx="400" cy="250" r="115" fill="#c79b57"/>
+  <rect x="260" y="330" width="280" height="120" rx="20" fill="#111111"/>
+  <rect x="280" y="350" width="240" height="80" rx="14" fill="#ffffff" opacity="0.9"/>
+  <path d="M260 250 C260 160, 540 160, 540 250" stroke="#111111" stroke-width="20" fill="none" stroke-linecap="round"/>
+  <text x="400" y="520" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="34" font-weight="700" fill="#111111">Premium Cut</text>
+</svg>
