@@ -272,6 +272,31 @@ img {
   background: #efe3d1;
 }
 
+.service-highlights {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin: 24px 0;
+}
+
+.highlight-card {
+  background: rgba(199, 155, 87, 0.12);
+  border: 1px solid rgba(199, 155, 87, 0.25);
+  border-radius: 14px;
+  padding: 16px;
+}
+
+.highlight-card strong {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--color-dark);
+}
+
+.highlight-card span {
+  color: var(--color-muted);
+  font-size: 0.95rem;
+}
+
 .service-grid,
 .testimonial-grid {
   display: grid;
@@ -355,6 +380,7 @@ img {
 }
 
 @media (max-width: 900px) {
+  .service-highlights,
   .service-grid,
   .testimonial-grid,
   .gallery-grid {
@@ -383,6 +409,7 @@ img {
   }
 
   .about-grid,
+  .service-highlights,
   .service-grid,
   .testimonial-grid,
   .gallery-grid,
