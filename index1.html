@@ -1,9 +1,72 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mett Barber Shop</title>
+    <title>
+      Mett Barber Shop | Melbourne Barber for Haircuts & Beard Grooming
+    </title>
+    <meta
+      name="description"
+      content="Mett Barber Shop in Melbourne offers precision haircuts, beard grooming, and hot towel shaves for modern men. Book your appointment today."
+    />
+    <meta
+      name="keywords"
+      content="barber shop Melbourne, men's haircut Melbourne, beard grooming Melbourne, hot towel shave"
+    />
+    <meta name="author" content="Mett Barber Shop" />
+    <meta name="robots" content="index,follow" />
+    <meta name="theme-color" content="#0f172a" />
+    <meta name="application-name" content="Mett Barber Shop" />
+    <meta property="og:site_name" content="Mett Barber Shop" />
+    <meta property="og:locale" content="en_AU" />
+    <link rel="canonical" href="https://www.mettbarbershop.com.au/" />
+    <link
+      rel="alternate"
+      href="https://www.mettbarbershop.com.au/"
+      hreflang="en-AU"
+    />
+    <meta
+      property="og:title"
+      content="Mett Barber Shop | Melbourne Barber for Haircuts & Beard Grooming"
+    />
+    <meta
+      property="og:description"
+      content="Precision haircuts, beard grooming, and premium grooming services in Melbourne."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.mettbarbershop.com.au/" />
+    <meta
+      property="og:image"
+      content="https://www.mettbarbershop.com.au/images/ff79bb32c59d50de22c93b0b828fcc05.jpg"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Mett Barber Shop | Melbourne Barber for Haircuts & Beard Grooming"
+    />
+    <meta
+      name="twitter:description"
+      content="Precision haircuts, beard grooming, and premium grooming services in Melbourne."
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BarberShop",
+        "name": "Mett Barber Shop",
+        "image": "https://www.mettbarbershop.com.au/images/ff79bb32c59d50de22c93b0b828fcc05.jpg",
+        "url": "https://www.mettbarbershop.com.au/",
+        "telephone": "+61-3-9876-5432",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Melbourne",
+          "addressRegion": "VIC",
+          "addressCountry": "AU"
+        },
+        "priceRange": "$$$",
+        "description": "Premium barber services including haircuts, beard grooming, and hot towel shaves in Melbourne."
+      }
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -115,13 +178,22 @@
           <h2>Fresh cuts, sharp edges, polished finish.</h2>
           <div class="gallery-grid">
             <div class="gallery-card">
-              <img src="images/ff79bb32c59d50de22c93b0b828fcc05.jpg" alt="Barber styling hair" />
+              <img
+                src="images/ff79bb32c59d50de22c93b0b828fcc05.jpg"
+                alt="Barber styling hair"
+              />
             </div>
             <div class="gallery-card">
-              <img src="images/fd6978e289c44a647ee0a42df086f023.jpg" alt="Beard grooming" />
+              <img
+                src="images/fd6978e289c44a647ee0a42df086f023.jpg"
+                alt="Beard grooming"
+              />
             </div>
             <div class="gallery-card">
-              <img src="images/783d4a0ed0d8e8dceee8640dbe9095ae.jpg" alt="Barbershop interior" />
+              <img
+                src="images/783d4a0ed0d8e8dceee8640dbe9095ae.jpg"
+                alt="Barbershop interior"
+              />
             </div>
           </div>
         </div>
@@ -133,7 +205,10 @@
           <h2>What our clients say</h2>
           <div class="testimonial-grid">
             <article class="testimonial-card">
-              <p>“The best haircut I’ve had in years. Clean, sharp, and so professional.”</p>
+              <p>
+                “The best haircut I’ve had in years. Clean, sharp, and so
+                professional.”
+              </p>
               <strong>Alex M.</strong>
             </article>
             <article class="testimonial-card">
@@ -154,7 +229,8 @@
             <p class="section-label">Book Your Visit</p>
             <h2>Reserve your next appointment today.</h2>
             <p>
-              Walk in for a quick trim or book ahead for a full grooming session.
+              Walk in for a quick trim or book ahead for a full grooming
+              session.
             </p>
           </div>
           <a href="tel:+61398765432" class="btn btn-primary">Call Now</a>
@@ -167,26 +243,29 @@
     </footer>
 
     <script>
-      const navbar = document.querySelector('.navbar');
-      const menuToggle = document.querySelector('.menu-toggle');
-      const navLinks = document.querySelector('.nav-links');
+      const navbar = document.querySelector(".navbar");
+      const menuToggle = document.querySelector(".menu-toggle");
+      const navLinks = document.querySelector(".nav-links");
 
-      window.addEventListener('scroll', () => {
-        navbar.classList.toggle('sticky', window.scrollY > 20);
+      window.addEventListener("scroll", () => {
+        navbar.classList.toggle("sticky", window.scrollY > 20);
       });
 
-      menuToggle.addEventListener('click', () => {
-        navLinks.classList.toggle('show');
+      menuToggle.addEventListener("click", () => {
+        navLinks.classList.toggle("show");
       });
 
-      const revealItems = document.querySelectorAll('.reveal');
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('visible');
-          }
-        });
-      }, { threshold: 0.15 });
+      const revealItems = document.querySelectorAll(".reveal");
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("visible");
+            }
+          });
+        },
+        { threshold: 0.15 },
+      );
 
       revealItems.forEach((item) => observer.observe(item));
     </script>

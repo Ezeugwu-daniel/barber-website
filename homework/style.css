@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  background-color: antiquewhite;
+  counter-reset: section;
+}
+h1 {
+  background-color: aqua;
+  color: white;
+  counter-reset: subsection;
+}
+
+h1::before {
+  counter-increment: section;
+  content: counter(section) ": ";
+}
+h1::before {
+  counter-increment: subsection;
+  content: counter(section) ". " counter(subsection) " ";
+}
+
+.item {
+  background-color: red;
+}
+ol {
+  counter-reset: section;
+  list-style-type: none;
+}
+li::before {
+  counter-increment: section 1;
+  content: counter(section) ":";
+}
